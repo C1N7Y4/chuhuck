@@ -1,0 +1,35 @@
+node.js
+
+mysql base de datos para almacenar la informacion
+
+----------------------------
+npm init --yes (crear un package json, es un archivo de configuracion que se ocupara en la aplicacion, nos da el nombre, la version, descripcion, scrips y modulos que necesitamos)
+-----------------
+framework backend - express: es el framework mas popular de nodejs para la creacion de aplicaicones backend
+
+complementos de express, extensiones del framework
+
+express-handlebars, es la integracion del motor de plantillas.
+
+express-session, administra las sessiones de nuestra app. es neceario para autentificar a un usuario
+
+mysql es un modulo de npm para conectarnos con la base de datos. Solo sirve para conectarnos y hacer consultas.
+
+express-mysql-session, este modulo almacenara las sessiones en la base de datos, en lugar del servidor.
+
+morgan, permite crear logs o mensajes sobre lo que ocurre con las aplicaciones clientes que se solicitan al servidor.
+
+bcryptjs, es modulo nos permite cifrar las contrasenas de los usuarios antes de guardalos en la base de datos.
+
+passport, es un modulo para autenticar y manejar el proceso de login de un usuario en la aplicacion. nos permite autentificarnos usando un usuario y contrasena u otros metodos como fb, google etc
+
+passport-local, es un complemento de passport para autentificar a los usuaios con nuestra propia base de datos
+
+timeago.js, modulo para el manejo de ls fechas, convierte los  timestamps o fechas  de la base de datos en un formato de  '2 minutes ago', '2 hours ago', etc
+
+connect-flash, modulo para monstrar mensajes de error y exito cuando un usuario realice una operacion
+
+express-validator, es un modulo para validar los datos que el usuario envia desde la aplicacion cliente.
+
+Modulo solo para desarrollo
+-nodemon -D, se utiliza durante el desarrollo del proeycto
