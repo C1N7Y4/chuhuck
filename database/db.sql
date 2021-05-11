@@ -11,7 +11,7 @@ create table balance_table(
 	id_location int not null,
 	id_user int not  null
 );
-
+//test
 
 create table locations(
 	id_location int auto_increment primary key,
